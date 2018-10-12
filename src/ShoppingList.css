@@ -1,0 +1,35 @@
+.shoppingListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  width: 165px;
+}
+
+.shoppingListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: silver;
+  color: rgb(10, 7, 7);
+  border: 2px solid black;
+}
+
+.shoppingListMain .header button:hover {
+  background-color: darkslategrey;
+  border: darkslategrey;
+  cursor: pointer;
+}
+
+.shoppingListMain .theList li {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+ul.theList {
+  padding: 0;
+}
