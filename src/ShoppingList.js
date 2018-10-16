@@ -45,7 +45,7 @@ class ShoppingList extends Component {
             />
             <button type="submit">add</button>
           </form>
-          <div className="need to buy">
+          <div className="needToBuy">
             <h1>Need To Buy</h1>
           </div>
         </div>

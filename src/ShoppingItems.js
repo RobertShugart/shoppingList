@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 class ShoppingItems extends Component {
   createTasks(item) {
-    return <li key={item.key}>{item.text}</li>;
+    return (
+      <li draggable="true" key={item.key}>
+        {item.text}
+      </li>
+    );
   }
 
   render() {
